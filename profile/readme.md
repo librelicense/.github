@@ -1,64 +1,41 @@
-# ⚖️ The Libre License Framework
+# ⚖️ The Libre License Framework (LLF)
 
-> Empower your community. Protect your upstream work. No law degree required.
+> **Empower your community. Protect your work. Governed by Libre Collective.**
 
-Welcome to the **Libre License** framework. the modern, plain-language licensing suite built for creators, software maintainers, data scientists, and digital artists who want full control over how their work is distributed and used .
-
----
-
-## ⚡ Why Choose Libre License?
-
-Traditional licenses force you(creator) to choose between complete lock-in or giving away your work with zero control. The Libre License Framework provides a middle ground built for modern open source and source-available workflows:
-
-* **💬 Plain-Language Legal Protection:** Written clearly so developers, users, and maintainers can actually read and understand their rights instantly.
-
-* **🌐 Universal Digital Coverage:** Automatically covers source code, AI model weights, ML datasets, database dumps, and design assets (`.svg`, `.ai`, `.pdf`) under one unified banner.
-
-* **🛡️ Upstream Control:** Prevents unauthorized re-packaging, commercial cloud exploitation, and community fragmentation.
-
-* **🧩 Modular License Stacking:** Mix and match restrictions (e.g., combine `LNDL` + `LNCL`) to craft the exact legal protections your project needs.
+Welcome to the **Libre License Framework (LLF)** - an independent, standalone licensing suite governed and maintained by **Libre Collective**. Designed for software maintainers, data scientists, machine learning engineers, and digital creators, **LLF** provides clear, enforceable, single-restriction licensing without the overhead of complex legal jargon.
 
 ---
 
-## 📜 Choose Your Protection Level
+## ⚡ Core Framework Features
 
-Select the single license or combination that matches your project goals:
-
-| License                           | Code   | CoreRestriction                                                                                                                                                                            | Ideal Use Case                                                                                                                              |
-| --------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Libre No-Distribution License** | `LNDL` | **No distribution allowed.** The user may use, query, modify, and store the project internally, but external sharing or public hosting is prohibited without the project owner's approval. | Projects, datasets, or codebases that want the official upstream repository to remain the single trusted source.                            |
-| **Libre No-Commercial License**   | `LNCL` | **No commercial use allowed.** User may view, modify, and share the project for personal or non-profit use, but commercial monetization or enterprise deployment is restricted.            | Creators wanting to keep code, raw datasets, or media free for education and research while monetizing commercial deployment.               |
-| **Libre Single-Source License**   | `LSSL` | **All derivative work must be submitted to upstream.** User may modify files or refine datasets, but all changes/extensions must be contributed back to the original project.              | Collaborative open-data or open-code projects seeking to prevent fragmentation and consolidate community additions into one canonical repo. |
-| **Libre Read-Only License**       | `LROL` | **Read-only / Audit-only.** No derivative works, dataset retraining, modification, distribution, or raw data extraction allowed in any form.                                               | Highly sensitive databases, AI models, software, or media requiring public auditability and verification without permitting forks.          |
+* **🛡️ Single-Restriction Model:** Every License Option enforces precisely *one* clear legal restriction upon an otherwise maximally permissive baseline.
+* **🧩 Modular License Stacking:** Combine License Options (ex: attribution, non-commercial, network source, or cloud protection) to build tailored legal protections.
+* **🌐 Universal Digital Coverage:** Purpose-built to protect software source code, AI/ML model weights, database records, technical documentation, and media assets.
+* **💬 Plain-Language Precision:** Written in direct, accessible English so developers, creators, and legal teams immediately understand their rights and obligations.
+* **💼 Commercial and Dual-Licensing Ready:** Built-in Copyright Holder rights reservations allow creators to monetize via commercial waivers and enterprise licenses.
 
 ---
 
-## 🔀 Need Combined Restrictions? Stack Them!
+## 📜 Canonical Licensing Categories
 
-Need to block both commercial exploitation **and** external distribution? You don't need a custom contract. Simply apply **`LNDL` + `LNCL**` concurrently. Users are legally bound to respect the rules of **all** applied Libre License blocks.
+The framework provides **thirteen purpose-built License Options** organized into two primary categories:
 
----
-
-## 🚀 Get Started in 60 Seconds
-
-1. **Pick your tier:** Choose `LNDL`, `LNCL`, `LSSL`, `LROL`, or a stacked combination .
-2. **Add the file:** Place the corresponding `license.md` file into your repository root.
-3. **Add the notice:** Mention the license in your project's main `readme.md` or file headers.
-
-```markdown
-Copyright (c) [YEAR] [YOUR-NAME/ORGANIZATION].
-Licensed under the [LIBRE-LICENSE] [LNDL/LNCL/LSSL/LROL] V1.0.
-See the license.md file for full terms and conditions.
-```
+- **Prohibition Options (`LN*L`):** Prohibit specific activities such as commercial use (`LNCL`), public distribution (`LNDL`), AI/ML model training (`LNAL`), managed cloud resale (`LNRL`), modification (`LNML`), data brokering (`LNBL`), or harmful uses (`LNHL`).
+- **Condition Options (`L**L`):** Impose specific positive obligations such as public domain dedication (`LPDL`), attribution (`LCRL`), same-terms copyleft (`LSTL`), network source disclosure (`LNSL`), upstream contribution submission (`LSSL`), or fixed-date temporal conversion (`LRDL`).
 
 ---
 
-## Helpful Links
+## 🌐 Full Specifications and Documentation
 
-### 🏠 Project [Home](https://librelicense.github.io).
-### 📚 Read the [Documentation](https://librelicense.github.io/documentation).
-### 🕶️ Join the [Community Discussions](https://github.com/orgs/librelicense/discussions).
-### 💻 Meet the [Creator](https://iamprogrammer.lk).
-### ❤️ Show Your [Support](https://iamprogrammer.lk/sponsor).
+To explore all 13 License Option specifications, read full legal texts, generate master `license.md` headers, or view stacking compatibility guidelines, visit our official homepage:
+
+👉 **[https://librelicense.github.io](https://librelicense.github.io)**
 
 ---
+
+## 🤝 Community and Support
+
+- 🏠 **Official Website:** [librelicense.github.io](https://librelicense.github.io)
+- 📚 **Documentation:** [librelicense.github.io/documentation](https://librelicense.github.io/documentation)
+- 💬 **Discussions:** [GitHub Discussions](https://github.com/orgs/librelicense/discussions)
+- 💻 **Created by:** [iamprogrammer.lk](https://iamprogrammer.lk)
