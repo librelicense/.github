@@ -26,20 +26,20 @@ the overhead of complex legal jargon.
 
 ## 📜 Canonical Licensing Categories
 
-The framework provides **thirteen purpose-built License Options** organized into two primary categories:
+The framework provides an **extensible family of purpose-built License Options** organized into two primary categories:
 
 - **Prohibition Options (`LN*L`):** Prohibit specific activities such as commercial use (`LNCL`),
   public distribution (`LNDL`), AI/ML model training (`LNAL`), managed cloud resale (`LNRL`), modification (`LNML`),
   data brokering (`LNBL`), or harmful uses (`LNHL`).
 - **Condition Options (`L**L`):** Impose specific positive obligations such as public domain dedication (`LPDL`),
   attribution (`LCRL`), same-terms copyleft (`LSTL`), network source disclosure (`LNSL`), upstream contribution
-  submission (`LSSL`), or fixed-date temporal conversion (`LRDL`).
+  submission (`LSSL`), fixed-date temporal conversion (`LRDL`), or revenue and seat usage thresholds (`LUTL`).
 
 ---
 
 ## 🌐 Full Specifications and Documentation
 
-To explore all 13 License Option specifications, read full legal texts, generate master `license.md` headers, or view stacking
+To explore all License Option specifications, read full legal texts, generate master `license.md` headers, or view stacking
 compatibility guidelines, visit our official homepage:
 
 👉 **[https://librelicense.github.io](https://librelicense.github.io)**
